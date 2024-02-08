@@ -1,0 +1,31 @@
+.main{
+    background-color: rgb(238, 48, 48) !important;
+    color: white !important;
+    width: 100%;
+}
+
+.text{
+    font-family: cursive;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #f63333, 0 0 40px #f63333, 0 0 50px #f63333, 0 0 60px #f63333, 0 0 70px #f63333, 0 0 80px #f63333;
+    }
+  }  
